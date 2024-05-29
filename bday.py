@@ -63,5 +63,8 @@ if question_number < len(questions):
         if st.button("Next Question"):
             st.session_state[f'user_answer_{question_number}'] = ""  # Clear the answer input
 else:
-    st.success("Congratulations! You've come so far and put in a lot of effort to answer all these questions. It looks like you found them pretty easy and fun! Keep up the great work and enjoy every moment. Your enthusiasm and dedication are truly amazing!")
-    st.video("final-vid.mp4")
+    st.write("One specific quality or trait that you've come to admire about your twin as you've grown older and experienced life together?")
+    abc=st.text_input("Your Answer:")
+    if st.button("proceed"):
+        st.success("Congratulations! You've come so far and put in a lot of effort to answer all these questions. It looks like you found them pretty easy and fun! Keep up the great work and enjoy every moment. Your enthusiasm and dedication are truly amazing!")
+        st.video("final-vid.mp4")
