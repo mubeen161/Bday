@@ -64,4 +64,4 @@ if question_number < len(questions):
             st.session_state[f'user_answer_{question_number}'] = ""  # Clear the answer input
 else:
     st.success("Congratulations! You've come so far and put in a lot of effort to answer all these questions. It looks like you found them pretty easy and fun! Keep up the great work and enjoy every moment. Your enthusiasm and dedication are truly amazing!")
-    st.video("C:/Users/User/OneDrive/Desktop/my programs/celeb.mp4")
+    st.video("final-vid.mp4")
